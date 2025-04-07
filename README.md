@@ -27,8 +27,11 @@ Input format:
 Example input:
 
 1 Complete project submission
+
 3 Buy groceries
+
 2 Schedule team meeting
+
 -1  # Ends input
 
 How It Works 🔧
