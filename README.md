@@ -16,43 +16,59 @@ This C program implements a priority-based weekly task scheduler using priority 
 2. Compile the program:
    gcc scheduler.c -o scheduler
 
-Usage 🖥️
-Run the program and enter tasks:
-./scheduler
+ Usage 🖥️
+   Run the program and enter tasks:
+   ./scheduler
 
 Input format:
+
 [priority] [task description]
 
 Example input:
+
 1 Complete project submission
 3 Buy groceries
 2 Schedule team meeting
 -1  # Ends input
 
 How It Works 🔧
+
 Tasks are stored in a min-heap priority queue
 
 The scheduler:
+
 Processes highest priority tasks first
+
 Distributes tasks round-robin across days
+
 Ensures priority-1 tasks always go to Monday
+
 Output shows the organized weekly schedule
 
 Example 📋
+
 Input:
+
 1 Finalize presentation
+
 3 Gym workout
+
 2 Email client
+
 -1
 
 Output:
+
 Monday:
+
 Priority: 1, Description: Finalize presentation
 
 Tuesday:
+
 Priority: 2, Description: Email client
 
 Wednesday:
+
 Priority: 3, Description: Gym workout
 
 Contributing 🤝
